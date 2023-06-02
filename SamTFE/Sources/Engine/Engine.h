@@ -31,7 +31,11 @@ with this program; if not, write to the Free Software Foundation, Inc.,
 #endif
 
 #include <stdlib.h>
+#if (!defined __INTEL_COMPILER) && (!defined PLATFORM_MACOSX)
 #include <malloc.h>
+#elif (defined PLATFORM_MACOSX)
+#include <stdlib.h>
+#endif
 #include <stdarg.h>
 #include <stdio.h>
 #include <string.h>
