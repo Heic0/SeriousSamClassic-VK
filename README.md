@@ -68,7 +68,7 @@ There are still many asserts in the engine. Most of them are irrelevant and shou
 Type this in your terminal:
 
 ```
-git clone https://github.com/tx00100xt/SeriousSamClassic-VK.git SeriousSamClassic-VK
+git clone https://github.com/Heic0/SeriousSamClassic-VK.git SeriousSamClassic-VK
 ```
 
 #### Copy official game data (optional)
@@ -95,29 +95,6 @@ cd SeriousSamClassic-VK/SamTSE/Sources
 ./build-linux64.sh        	# use build-linux32.sh for 32-bits
 ```
 
-### Ubuntu 
-Instead of building you can install packages from ppa by adding ppa:tx00100xt/serioussam to your system's Software Sources.
-```bash
-sudo add-apt-repository ppa:tx00100xt/serioussam
-sudo apt update
-```
-This PPA can be added to your system manually by copying the lines below and adding them to your system's software sources.
-```
-deb https://ppa.launchpadcontent.net/tx00100xt/serioussam/ubuntu YOUR_UBUNTU_VERSION_HERE main 
-deb-src https://ppa.launchpadcontent.net/tx00100xt/serioussam/ubuntu YOUR_UBUNTU_VERSION_HERE main 
-```
-After adding ppa, run the commands:
-```bash
-sudo apt install  serioussam-vk serioussamse-vk serioussam-alpha serioussam-xplus serioussamse-xplus
-```
-
-### Gentoo
-
-To build a game for gentoo, use a https://github.com/tx00100xt/serioussam-overlay containing ready-made ebuilds for building the game and add-ons.
-
-### Arch Linux
-
-To build a game under Arch Linux you can use the package from AUR: https://aur.archlinux.org/packages/serioussam-vk
 
 ### Raspberry Pi
 
@@ -140,7 +117,7 @@ cd SeriousSamClassic-VK/SamTSE/Sources
 Type this in your terminal:
 
 ```
-git clone https://github.com/tx00100xt/SeriousSamClassic-VK.git SeriousSamClassic-VK
+git clone https://github.com/Heic0/SeriousSamClassic-VK.git SeriousSamClassic-VK
 ```
 
 #### Copy official game data (optional)
@@ -187,7 +164,7 @@ This version of the engine comes with a set of resources (`\SE1_10b.GRO`) that a
 ### Running the game
 
 1. Locate the game directory for "Serious Sam Classic The First Encounter" ([steam](https://store.steampowered.com/app/41050/Serious_Sam_Classic_The_First_Encounter/))
-2. Build game from source code or [Download latest release](https://github.com/tx00100xt/SeriousSamClassic-VK/releases) and copy the latest files from the game directory to SamTFE/Bin
+2. Build game from source code and copy the latest files from the game directory to SamTFE/Bin
 3. Copy all *.gro files, Help folder and Levels folder from the game directory to SamTFE directory.
    At the current time the files are:
    * Help (folder)
@@ -206,7 +183,7 @@ This version of the engine comes with a set of resources (`\SE1_10b.GRO`) that a
 ### Running the game
 
 1. Locate the game directory for "Serious Sam Classic The Second Encounter" ([steam](https://store.steampowered.com/app/41060/Serious_Sam_Classic_The_Second_Encounter/))
-2. Build game from source code or [Download latest release](https://github.com/tx00100xt/SeriousSamClassic-VK/releases) and copy the latest files from the game directory to SamTSE/Bin
+2. Build game from source code copy the latest files from the game directory to SamTSE/Bin
 3. Copy all *.gro files and Help folder from the game directory to SamTSE directory.
    At the current time the files are:
    * Help (folder)
@@ -379,6 +356,7 @@ Supported OS
 -----------
 * `Linux`
 * `FreeBSD`
+* `MacOS` - Experemental support. (You can build it !)
 * `Windows`
 * `Raspberry PI OS`
 
