@@ -332,7 +332,7 @@ These files are automatically downloaded and unpacked in demo build scripts.
 Type this in your terminal:
 
 ```
-git clone https://github.com/tx00100xt/SeriousSamClassic-VK.git SeriousSamClassic-VK
+git clone https://github.com/Heic0/SeriousSamClassic-VK.git SeriousSamClassic-VK
 cd SeriousSamClassic-VK
 ./build-linux64demo.sh        	    # use build-linux32demo.sh for 32-bits
 ```
